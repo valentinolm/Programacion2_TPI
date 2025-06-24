@@ -16,7 +16,8 @@ public class ControladorTorneo {
         this.faseLigaFinalizada = false;
     }
 
-    public void iniciar() { // Metodo principal que inicia el programa
+    // Metodo principal que inicia el programa
+    public void iniciar() { 
         EquipoDAO dao = new EquipoDAO();
         List<Equipo> equipos;
 
@@ -43,7 +44,8 @@ public class ControladorTorneo {
         } while (opcion != 0);
     }
 
-    private void procesarOpcion(int opcion) { // Metodo para gestionar la opcion que ingrese el usuario
+    // Metodo para gestionar la opcion que ingrese el usuario
+    private void procesarOpcion(int opcion) { 
         switch (opcion) {
             case 1:
                 torneo.iniciarFaseLiga();
