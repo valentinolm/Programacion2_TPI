@@ -73,6 +73,6 @@ public class VistaConsola {
     // Mensaje de despedida 
     
     public void despedida() {
-        System.out.println("....");
+        System.out.println("Saliendo...");
     }
 }
