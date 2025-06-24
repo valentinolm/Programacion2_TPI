@@ -13,6 +13,8 @@ public class VistaConsola {
         this.scanner = new Scanner(System.in);
     }
 
+    // Metodo para la carga los equipos
+    
     public List<Equipo> cargarEquipos() {
         List<Equipo> equipos = new ArrayList<>();
 
@@ -32,6 +34,8 @@ public class VistaConsola {
 
         return equipos;
     }
+
+    // Visualizacion del Menu
     
     public void mostrarMenu() {
         System.out.println("\n*** 🏆Champions League🏆 ***");  
@@ -43,11 +47,13 @@ public class VistaConsola {
         System.out.println("0. Salir");
         System.out.print("Seleccione una opcion: ");
     }
-
+    
     public int leerOpcion() {
         return scanner.nextInt();
     }
 
+    // Visualizacion del campeon del Torneo 
+    
     public void mostrarCampeon(Equipo campeon) {
         if (campeon != null) {
             System.out.println("\n ¡El campeon del torneo es: " + campeon.getNombre() + "!");
@@ -56,12 +62,16 @@ public class VistaConsola {
         }
     }
 
+    // Opcion para cargar los equipos desde la Base de Datos
+    
     public boolean deseaCargarDesdeBD() {
         System.out.print("Desea cargar los equipos desde la base de datos? (s/n): ");
         String resp = scanner.nextLine();
         return resp.equalsIgnoreCase("s");
     }
 
+    // Mensaje de despedida 
+    
     public void despedida() {
         System.out.println("....");
     }
