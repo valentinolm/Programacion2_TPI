@@ -39,6 +39,7 @@ public class VistaConsola {
     
     public void mostrarMenu() {
         System.out.println("\n*** 🏆Champions League🏆 ***");  
+        System.out.println("1. Iniciar fase de liga");
         System.out.println("2. Jugar fase actual");
         System.out.println("3. Ver resultados de fase actual");
         System.out.println("4. Ver tabla de posiciones");
