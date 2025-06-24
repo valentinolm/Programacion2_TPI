@@ -19,7 +19,7 @@ public class VistaConsola {
         List<Equipo> equipos = new ArrayList<>();
 
         System.out.println("*** Carga de Equipos ***");
-        System.out.print("¿Cuantos equipos desea ingresar? (ej: 36): ");
+        System.out.print("Cuantos equipos desea ingresar? (ej: 36): ");
         int cantidad = scanner.nextInt();
         scanner.nextLine();
 
