@@ -13,7 +13,7 @@ public class VistaConsola {
         this.scanner = new Scanner(System.in);
     }
 
-    // Metodo para la carga los equipos
+    // Metodo para la carga de los equipos
     
     public List<Equipo> cargarEquipos() {
         List<Equipo> equipos = new ArrayList<>();
