@@ -1,17 +1,3 @@
-/*
- *  Manejar la lista de equipos participantes.
-
-    Controlar la fase actual (liga o eliminatoria).
-
-    Generar los partidos por fase.
-
-    Avanzar de fase según corresponda.
-
-    Mostrar la tabla de posiciones (al final de la fase liga).
-
-    Administrar el progreso del torneo.
- * 
- */
 package com.mycompany.tpi.modelo;
 
 import java.util.ArrayList;
